@@ -1,0 +1,41 @@
+/**
+Within that style.css add properties to customize the page to your liking, make sure that
+you include the following:
+a. Background color
+b. Text color
+c. Font family
+d. Font size
+e. Borders
+f. Rounded corners on images
+
+*/
+
+body {
+  background-color: darkgrey;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#image {
+  border-radius: 50px;
+  max-width: 700px;
+}
+
+a{
+  display: inline-block;
+  color: red;
+  font-family: inherit;
+}
+
+a :hover {
+  color: blue;
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+  color: antiquewhite;
+}
